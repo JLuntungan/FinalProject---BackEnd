@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , NavLink} from "react-router-dom";
 import Button from "../../components/atom/Button";
+import Button2 from "../../components/atom/Button2";
 import Input from "../../components/atom/input";
+import firebase from "../../config/Firebase";
+
 
 
 
@@ -31,13 +34,22 @@ const Login = () => {
         className="form-control"
         label="Password"
         placeholder="Masukkan password"
+        type='password'
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
       <br />
-      <Link to="/Dashboard">
+      <Link to="/CRUD">
       <Button onSubmit={handleSubmit} text="Submit" />
       </Link>
+      <br></br>
+      <Link to="/Registrasi">
+      <Button2 onSubmit={handleSubmit} text="Registrasi" />
+      </Link>
+      
+      
+      
+      
     </div>
   );
 };

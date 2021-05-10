@@ -14,7 +14,7 @@ const About = () => {
                         S11810192 / 105021810050
                         <br/>
                         <br/>
-                        "Website ini dibuat untuk memenuhi tuntutan mata kuliah Backend Web Developer"
+                        "Website ini dibuat untuk memenuhi tugas akhir mata kuliah Backend Web Developer"
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className="text-muted"></Card.Footer>

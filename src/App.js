@@ -5,29 +5,15 @@
 import Login from "./pages/Login"
 import NavBar from "./components/molecules/Navbar"
 import About from './pages/About';
-import Dashboard from './pages/Dashboard';
+
+import CRUD from './pages/CRUD';
+import Routes from './config/Routes';
 
 
 
 function App() {
   return (
-    <Router>
-      <NavBar></NavBar>
-        <div>
-          <Switch>              
-            <Route path="/Dashboard">
-               <Dashboard />
-             </Route>
-             <Route exact path="/">
-               <Login />
-             </Route>
-             <Route exact path="/About">
-               <About />
-            </Route>    
-                
-            </Switch>
-        </div>
-    </Router>
+    <Routes></Routes>
     
   );
 }

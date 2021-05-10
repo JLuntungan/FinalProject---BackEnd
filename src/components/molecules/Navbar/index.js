@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-        Project Final
+        Final Project
         </a>
         <button
           className="navbar-toggler"
@@ -25,6 +25,7 @@ const NavBar = () => {
             <Link className="nav-link" to="/about">
               About
             </Link>
+            
           </div>
         </div>
       </div>
