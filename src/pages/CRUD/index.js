@@ -113,7 +113,7 @@ const CRUD = () => {
                     className="form-control" 
                     placeholder="dd-mm-yyyy / 25-01-2001" 
                     value={birthday} 
-                    onChange={(e) => setbirthday(e.target.value)}></input>
+                    onChange={(e) => setbirthday(e.target.value)} secureTextEntry></input>
                 <p>Gender</p>
                 <input 
                     className="form-control" 
@@ -131,7 +131,8 @@ const CRUD = () => {
                     className="form-control" 
                     placeholder="Type No handphone" 
                     value={telp} 
-                    onChange={(e) => setTelp(e.target.value)}></input>   
+                    onChange={(e) => setTelp(e.target.value)}secureTextEntry></input>   
+                
                 <br></br>
                
                 <button className="btn btn-dark" onClick={onSubmit}> {button} </button>

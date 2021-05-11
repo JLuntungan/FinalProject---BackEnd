@@ -5,6 +5,7 @@ import About from "../../pages/About";
 import CRUD from "../../pages/CRUD";
 import NavBar from "../../components/molecules/Navbar";
 import Registrasi from "../../pages/Registrasi";
+import ListPeople from '../../pages/ListPeople';
 
 
 
@@ -14,7 +15,7 @@ const Routes = () => {
     <Router>
       <NavBar></NavBar>
       <Switch>
-            <Route exact path="/">
+            <Route exact path="/Login">
                 <Login></Login>
             </Route>
             <Route path="/CRUD">
@@ -25,6 +26,9 @@ const Routes = () => {
             </Route>
             <Route path="/Registrasi">
                 <Registrasi></Registrasi>
+            </Route>
+            <Route path="/ListPeople">
+               <ListPeople></ListPeople>
             </Route>
            
         </Switch>

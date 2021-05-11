@@ -40,7 +40,7 @@ const Registrasi  = () => {
         setEmail('');
         setPassword('');
         //redirect ke login 
-        history.push("/");
+        history.push("/login");
         })
         .catch((error) => {
         console.log(error);

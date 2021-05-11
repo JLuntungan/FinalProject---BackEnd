@@ -5,7 +5,6 @@
 import Login from "./pages/Login"
 import NavBar from "./components/molecules/Navbar"
 import About from './pages/About';
-
 import CRUD from './pages/CRUD';
 import Routes from './config/Routes';
 
